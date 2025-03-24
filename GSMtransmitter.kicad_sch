@@ -6458,12 +6458,6 @@
 		(uuid "2cb722be-fc0d-4cb9-98bc-ae1c780c1952")
 	)
 	(junction
-		(at 175.26 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e4e8b4e-94c6-41ad-9a36-4116a5be1284")
-	)
-	(junction
 		(at 236.22 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6558,6 +6552,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d153e477-d38a-41a2-9fc2-5fbc2603288e")
+	)
+	(junction
+		(at 175.26 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db906b04-d9b3-4635-8da2-f970078e5cda")
 	)
 	(junction
 		(at 121.92 43.18)
@@ -6707,6 +6707,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 143.51) (xy 175.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0656e711-ba85-47d4-9127-0f49c62fb1bf")
+	)
+	(wire
+		(pts
 			(xy 129.54 43.18) (xy 129.54 45.72)
 		)
 		(stroke
@@ -6804,6 +6814,16 @@
 			(type default)
 		)
 		(uuid "0ffa3ea9-93b7-40d1-b43a-923874f8d5bd")
+	)
+	(wire
+		(pts
+			(xy 175.26 133.35) (xy 175.26 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112970d3-f4f1-4ad0-8aeb-97a60f0635a4")
 	)
 	(wire
 		(pts
@@ -6927,6 +6947,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 144.78) (xy 199.39 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f54f172-137c-427a-939f-107ad2eb4226")
+	)
+	(wire
+		(pts
+			(xy 175.26 144.78) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbf131c-a119-4e18-bc7d-2d4198d3675b")
+	)
+	(wire
+		(pts
 			(xy 105.41 26.67) (xy 105.41 29.21)
 		)
 		(stroke
@@ -6994,16 +7034,6 @@
 			(type default)
 		)
 		(uuid "29f7e3cb-a92b-4775-8e81-cb7f6844aed4")
-	)
-	(wire
-		(pts
-			(xy 184.15 144.78) (xy 175.26 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b94b4b3-2cde-486f-b693-233dbc9a5b95")
 	)
 	(wire
 		(pts
@@ -7177,16 +7207,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 144.78) (xy 199.39 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45500be8-8163-4208-96ea-9c6e38b2d1de")
-	)
-	(wire
-		(pts
 			(xy 105.41 39.37) (xy 105.41 63.5)
 		)
 		(stroke
@@ -7197,7 +7217,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 152.4) (xy 175.26 153.67)
+			(xy 175.26 153.67) (xy 175.26 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7404,16 +7424,6 @@
 			(type default)
 		)
 		(uuid "62689270-1934-4fe9-8e6e-c5e73cd20cb8")
-	)
-	(wire
-		(pts
-			(xy 170.18 144.78) (xy 175.26 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62cb1773-8535-40bf-b604-26ea114ef258")
 	)
 	(wire
 		(pts
@@ -7964,6 +7974,16 @@
 			(type default)
 		)
 		(uuid "b50c413c-6304-47c6-b22e-cc98a7164503")
+	)
+	(wire
+		(pts
+			(xy 175.26 146.05) (xy 175.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8263cb6-36f3-4441-8fc4-43a349b45b7b")
 	)
 	(wire
 		(pts
@@ -9439,7 +9459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f8d9d8-8884-432a-bbf0-d68b0e72e799")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 252.73 60.96 0)
 			(effects
 				(font
@@ -9489,7 +9509,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9570,7 +9590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18da5ac2-0f93-452a-9929-c726b3f52a32")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 181.61 34.29 0)
 			(effects
 				(font
@@ -9621,7 +9641,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10056,7 +10076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "306b59ac-c2b5-4645-865f-e5690dbe39e6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 187.96 127 0)
 			(effects
 				(font
@@ -10106,7 +10126,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10122,7 +10142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e41d397-5ba4-4fc5-9e59-a14c82f2914f")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -10172,7 +10192,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10180,7 +10200,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 175.26 153.67 0)
+		(at 175.26 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10189,8 +10209,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f353f81-5ab1-4ed7-a25e-306a86f0a364")
-		(property "Reference" "#PWR021"
-			(at 175.26 160.02 0)
+		(property "Reference" "#PWR022"
+			(at 175.26 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +10219,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 175.26 157.48 0)
+			(at 175.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +10227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 153.67 0)
+			(at 175.26 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +10236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 153.67 0)
+			(at 175.26 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10225,7 +10245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 175.26 153.67 0)
+			(at 175.26 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10259,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10514,7 +10534,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.26 148.59 0)
+		(at 175.26 149.86 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10523,7 +10543,7 @@
 		(dnp no)
 		(uuid "4cd7fcea-5622-494c-9ad6-32ee74cf75a5")
 		(property "Reference" "C8"
-			(at 178.054 151.638 0)
+			(at 178.054 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10531,7 +10551,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 170.942 151.638 0)
+			(at 170.942 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +10559,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 176.2252 144.78 0)
+			(at 176.2252 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +10568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 148.59 0)
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +10577,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 175.26 148.59 0)
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +10609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4df2e342-9ab1-4a78-b691-f59d7a4c3561")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 261.62 71.12 0)
 			(effects
 				(font
@@ -10640,7 +10660,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11487,6 +11507,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 175.26 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f6ee8dc-f1d7-4a34-88ec-cf2cf0a7e112")
+		(property "Reference" "#PWR021"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 172.212 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d035607c-7bb1-4876-a19c-d79d4bd4d8bf")
+		)
+		(instances
+			(project "GSMtransmitter"
+				(path "/bbc92722-7b85-49e8-a662-589426df605a"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 78.74 88.9 90)
 		(unit 1)
@@ -11513,7 +11599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_Round_D2.0mm_Vertical"
+		(property "Footprint" "Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm_HandSoldering"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -11690,8 +11776,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 144.78 270)
-		(mirror x)
+		(at 175.26 139.7 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11700,23 +11786,25 @@
 		(fields_autoplaced yes)
 		(uuid "88e8a1eb-2255-4e5f-b4ae-274d5467a65f")
 		(property "Reference" "R10"
-			(at 187.96 138.43 90)
+			(at 177.8 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 187.96 140.97 90)
+			(at 177.8 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 187.96 146.558 90)
+			(at 177.038 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11725,7 +11813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 144.78 0)
+			(at 175.26 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +11822,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 144.78 0)
+			(at 175.26 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12102,7 +12190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fa75158-d6fd-4a0d-b47a-7f78787569bd")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 236.22 60.96 0)
 			(effects
 				(font
@@ -12152,7 +12240,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13063,7 +13151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdca3700-ea9c-497b-9f75-84043f131b7f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 261.62 60.96 0)
 			(effects
 				(font
@@ -13113,7 +13201,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13272,7 +13360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6bdd365-a762-4421-b300-3b33de452815")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 212.09 156.21 0)
 			(effects
 				(font
@@ -13322,7 +13410,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13404,7 +13492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb5b4a92-ba9a-4802-a3af-8eccd80f93ae")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 181.61 50.8 0)
 			(effects
 				(font
@@ -13454,7 +13542,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

@@ -7444,7 +7444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01838833-444f-45b7-8950-1d6cdad6b3a7")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 210.82 74.93 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -7510,7 +7510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "051e9bd9-e594-4ae6-81f3-4585f7ac65f7")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 128.27 62.23 0)
 			(effects
 				(font
@@ -7560,7 +7560,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -7645,7 +7645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e27d53b-d1d3-40da-b880-66f82c73361b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 53.34 102.87 0)
 			(effects
 				(font
@@ -7695,7 +7695,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7920,7 +7920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1acb0b97-ebde-44a2-a6db-4b896d85f929")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 146.05 110.49 0)
 			(effects
 				(font
@@ -7970,7 +7970,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8054,7 +8054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2082d720-c2a1-4694-872e-310de76cb39a")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 224.79 99.06 0)
 			(effects
 				(font
@@ -8105,7 +8105,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR078")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -8339,7 +8339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd2b772-1d7b-42d6-aea0-429b5392820f")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR080"
 			(at 227.33 74.93 0)
 			(effects
 				(font
@@ -8389,7 +8389,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR079")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ec92b2-e7ae-4635-8eb1-16802a49830e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 111.76 191.77 0)
 			(effects
 				(font
@@ -8525,7 +8525,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8541,7 +8541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "586b6df7-67c6-4dde-9f80-0e33606ee29e")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 160.02 191.77 0)
 			(effects
 				(font
@@ -8591,7 +8591,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -8677,7 +8677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5be5652a-d111-4508-b6a9-88b7a28de6c7")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -8727,7 +8727,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8743,7 +8743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1d32a8-6307-425d-8a7a-1b2fa0af9c96")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -8793,7 +8793,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9045,7 +9045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c627682-e82f-4797-a79a-dded66cfeb3a")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 193.04 107.95 0)
 			(effects
 				(font
@@ -9096,7 +9096,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c33331-3779-4e54-8148-7e891e6e80e0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 111.76 147.32 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 		(instances
 			(project ""
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -9394,7 +9394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a272d34e-ea61-4a5d-91b7-c4dbc6cfdf4b")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 92.71 125.73 0)
 			(effects
 				(font
@@ -9444,7 +9444,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9460,7 +9460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a36c4d9b-0f9b-48c1-8ddf-21ffe86d719f")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 160.02 147.32 0)
 			(effects
 				(font
@@ -9510,7 +9510,7 @@
 		(instances
 			(project ""
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -9526,7 +9526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b94bd6-b5e9-4558-ba42-4ddac826d77f")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 143.51 46.99 0)
 			(effects
 				(font
@@ -9576,7 +9576,7 @@
 		(instances
 			(project ""
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9592,7 +9592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf6871d-6c7d-4dac-8d90-3aa6fb79465f")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -9643,7 +9643,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -10158,7 +10158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdb8719d-7b73-44e9-a4f0-47b80ebdd592")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 184.15 107.95 0)
 			(effects
 				(font
@@ -10209,7 +10209,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc92d164-a444-435d-9dfb-be7992e4434f")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -10617,7 +10617,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10633,7 +10633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e162e406-6ab0-4154-9789-cd024e11655c")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR081"
 			(at 257.81 74.93 0)
 			(effects
 				(font
@@ -10683,7 +10683,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR080")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -10698,7 +10698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1ab7063-0814-443e-9efc-fc9008aa00fd")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 175.26 107.95 0)
 			(effects
 				(font
@@ -10749,7 +10749,7 @@
 		(instances
 			(project "GSMtransmitter"
 				(path "/bbc92722-7b85-49e8-a662-589426df605a/323c1cab-6834-44a8-8654-c93c581ecae7"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
