@@ -9398,7 +9398,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8 MHz"
+		(property "Value" "4 MHz"
 			(at 82.55 72.3899 90)
 			(effects
 				(font
@@ -9802,7 +9802,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GNL-0805PGC-TL"
 			(at 96.52 147.6374 90)
 			(effects
 				(font
@@ -9879,7 +9879,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "20pF"
 			(at 71.374 63.246 90)
 			(effects
 				(font
@@ -11011,7 +11011,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73a1ffab-7137-4ce2-b172-b8ec1c3e46d1")
 		(property "Reference" "D1"
 			(at 62.23 145.0974 90)
@@ -11022,8 +11021,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 62.23 147.6374 90)
+		(property "Value" "GNL-0805UEC"
+			(at 43.434 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,7 +11434,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ebfc2bf-268b-4443-ab6d-bb60271da076")
 		(property "Reference" "D3"
 			(at 85.09 145.0974 90)
@@ -11446,8 +11444,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 85.09 147.6374 90)
+		(property "Value" "GNL-0805PGC-TL"
+			(at 73.914 162.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +11993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "MLZ2012M100WT000"
 			(at 133.096 50.8 0)
 			(effects
 				(font
@@ -12063,7 +12061,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "20pF"
 			(at 71.628 73.66 90)
 			(effects
 				(font
@@ -12937,7 +12935,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3b68cae-9645-4a17-85af-1b9df2912ceb")
 		(property "Reference" "D2"
 			(at 73.66 145.0974 90)
@@ -12948,8 +12945,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 73.66 147.6374 90)
+		(property "Value" "GNL-0805PGC-TL"
+			(at 61.214 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)

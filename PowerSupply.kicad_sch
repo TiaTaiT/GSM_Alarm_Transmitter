@@ -1413,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "KSE-CD5D18NP-220NC"
 			(at 140.97 71.12 90)
 			(effects
 				(font
@@ -1421,7 +1421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS6028"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -1548,7 +1548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TAJC686M010RNJ"
+		(property "Value" "CA45-C010K107T"
 			(at 161.29 80.3909 0)
 			(effects
 				(font
