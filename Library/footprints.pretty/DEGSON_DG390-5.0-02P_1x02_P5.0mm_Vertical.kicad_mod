@@ -154,7 +154,7 @@
 		(at 0 0)
 		(size 2.5 3.6)
 		(drill 1.4)
-		(layers "*.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask" "B.SilkS")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.138889)
 		(uuid "fb672698-7bf8-4ebe-86b2-29b9dcbcc856")
