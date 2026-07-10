@@ -1,0 +1,232 @@
+(footprint "CSAB0420-4.4x4.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Codaca Electronic molding power choke")
+	(tags "Inductor coil choke")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(layer "F.SilkS")
+		(uuid "86ed11fd-d942-4b64-b068-ebedc4a7a92e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CSAB0420-4.4x4.4mm"
+		(at 0 3.8 0)
+		(layer "F.Fab")
+		(uuid "8df9cf7b-f4c3-465c-862a-dca9ccb1f47f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.codaca.com/Private/pdf/CSAB0420.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f1206b5-66b8-454b-8aef-a20a2a8cc609")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Codaca Electronic molding power choke"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a66bcf72-c76a-4ba5-a95d-78bb8a5b7370")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.35 -1.55)
+		(end -2.35 -2.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f15e2d7-0fe6-4043-9cf3-c6d305bbed1f")
+	)
+	(fp_line
+		(start -2.35 2.35)
+		(end -2.35 1.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b752a31f-c964-4b88-a613-b3e8f9d4a74a")
+	)
+	(fp_line
+		(start 2.35 -2.35)
+		(end -2.35 -2.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "196f82d6-b714-48dc-88fd-cbe0a82e56ee")
+	)
+	(fp_line
+		(start 2.35 -2.35)
+		(end 2.35 -1.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f679283a-0005-4ddb-94ef-b37b60b12740")
+	)
+	(fp_line
+		(start 2.35 2.35)
+		(end -2.35 2.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a125cf8-bf35-4cb1-a47c-896d8033ab8f")
+	)
+	(fp_line
+		(start 2.35 2.35)
+		(end 2.35 1.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12cda7e4-8d0c-4d32-89c5-dbe00d6025fc")
+	)
+	(fp_line
+		(start -2.8 -2.8)
+		(end 2.8 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5ee5adc-81bd-46cb-86dd-fb609d40dd01")
+	)
+	(fp_line
+		(start -2.8 2.8)
+		(end -2.8 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d5c46bd-8ba3-436e-8c1a-c14fb690692f")
+	)
+	(fp_line
+		(start 2.8 -2.8)
+		(end 2.8 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2ce0e11-68b3-4119-8192-bca7406e897a")
+	)
+	(fp_line
+		(start 2.8 2.8)
+		(end -2.8 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef771d59-3021-4382-a0ea-4886d38350fa")
+	)
+	(fp_line
+		(start -2.2 -2.2)
+		(end -2.2 2.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "eda7726b-b32c-4284-b5ee-98c9db77c306")
+	)
+	(fp_line
+		(start -2.2 2.2)
+		(end 2.2 2.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2c118150-6f88-414d-867d-d73ce855f8b0")
+	)
+	(fp_line
+		(start 2.2 -2.2)
+		(end -2.2 -2.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "43b924e7-9848-4935-a0a0-f3da71b38214")
+	)
+	(fp_line
+		(start 2.2 2.2)
+		(end 2.2 -2.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1ea34fba-6fd8-4419-b0cf-42d1347f7eb5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a8e07e2e-6131-4356-b78c-8353759b8e94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.85 0 90)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3ca1c1ef-2b3a-4331-bbac-9f4bcff21914")
+	)
+	(pad "2" smd rect
+		(at 1.85 0 90)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a2c63fae-775f-41d9-8b24-0ea664c497e8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/3d/CSAB0420.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
