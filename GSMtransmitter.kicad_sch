@@ -110,6 +110,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 81.28) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb0e171-d7b7-4c92-a10d-c9b38c9245f2")
+	)
+	(wire
+		(pts
 			(xy 78.74 34.29) (xy 209.55 34.29)
 		)
 		(stroke
@@ -137,16 +147,6 @@
 			(type default)
 		)
 		(uuid "15ee67c5-1882-4c93-9155-39aa7458de55")
-	)
-	(wire
-		(pts
-			(xy 156.21 73.66) (xy 156.21 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166a4730-60b4-48bd-a427-4c201081c620")
 	)
 	(wire
 		(pts
@@ -230,6 +230,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 113.03) (xy 213.36 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b07aa84-d7a7-42fb-99e4-bf5a259c1740")
+	)
+	(wire
+		(pts
 			(xy 49.53 81.28) (xy 97.79 81.28)
 		)
 		(stroke
@@ -310,16 +320,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 213.36 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "798bf34e-a4a3-4449-ab52-4dd64df6ecec")
-	)
-	(wire
-		(pts
 			(xy 224.79 73.66) (xy 209.55 73.66)
 		)
 		(stroke
@@ -390,16 +390,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 156.21 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a44ce8-361f-466a-bb0e-babc03b13c2d")
-	)
-	(wire
-		(pts
 			(xy 140.97 43.18) (xy 140.97 53.34)
 		)
 		(stroke
@@ -460,16 +450,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 104.14) (xy 213.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c002bcf1-1d83-4f2c-bd2e-3b882357f33c")
-	)
-	(wire
-		(pts
 			(xy 161.29 68.58) (xy 161.29 99.06)
 		)
 		(stroke
@@ -507,16 +487,6 @@
 			(type default)
 		)
 		(uuid "cb04c8cd-8ebf-4d4a-b9ef-7c8a85696dea")
-	)
-	(wire
-		(pts
-			(xy 153.67 76.2) (xy 153.67 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24312d7-bb1b-4569-8346-f5f0d6336f13")
 	)
 	(wire
 		(pts
@@ -570,16 +540,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 153.67 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9410a81-50ce-4e0f-929b-76af25558a6f")
-	)
-	(wire
-		(pts
 			(xy 251.46 115.57) (xy 242.57 115.57)
 		)
 		(stroke
@@ -617,6 +577,16 @@
 			(type default)
 		)
 		(uuid "fa0881f4-e609-4b19-91f9-f33e53e2afe7")
+	)
+	(wire
+		(pts
+			(xy 130.81 81.28) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaccc2d-9758-49a4-8909-c9a0ccd0426f")
 	)
 	(wire
 		(pts
@@ -688,6 +658,16 @@
 		)
 		(uuid "8ab8eabd-5f0b-4f56-a921-25f8094a30c5")
 	)
+	(label "~{RF_RESET}"
+		(at 171.45 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fa17ab3-c79f-4069-a5dc-c7b33122334f")
+	)
 	(label "ALARM_IN2"
 		(at 67.31 55.88 0)
 		(effects
@@ -698,7 +678,7 @@
 		)
 		(uuid "a6be608c-9ca8-40af-9bd2-2be43530ac96")
 	)
-	(label "RF_ENABLE"
+	(label "~{RF_ENABLE}"
 		(at 171.45 110.49 0)
 		(effects
 			(font
@@ -707,26 +687,6 @@
 			(justify left bottom)
 		)
 		(uuid "c176218b-3d0a-45eb-bab0-d8f62e817d00")
-	)
-	(label "UART2_DTR"
-		(at 171.45 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "deee63c8-79d9-462e-a77b-e17cf8bc71be")
-	)
-	(label "UART2_RI"
-		(at 171.45 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e24cbae8-1e02-47d3-9590-4c353c4803da")
 	)
 	(label "BATTERY_LEVEL"
 		(at 133.35 57.15 0)
@@ -1566,16 +1526,6 @@
 				(justify left)
 			)
 		)
-		(pin "UART_DTR" input
-			(at 213.36 106.68 180)
-			(uuid "56eb2e47-7f4e-45c5-b6f1-41bbf600fa15")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SIM1_CLK" output
 			(at 242.57 110.49 0)
 			(uuid "6d6a9132-4d6e-4401-9efe-c4e9a5810729")
@@ -1676,16 +1626,6 @@
 				(justify right)
 			)
 		)
-		(pin "UART_RI" input
-			(at 213.36 104.14 180)
-			(uuid "f39a7fae-c332-48d4-a793-349f20f86610")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "UART_RX" output
 			(at 213.36 99.06 180)
 			(uuid "3df4fa6d-6b4e-4357-ab1a-93ebe6e1ddb6")
@@ -1699,6 +1639,16 @@
 		(pin "UART_TX" input
 			(at 213.36 101.6 180)
 			(uuid "3b7ca146-ea41-43e3-9384-a872993fc334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 213.36 113.03 180)
+			(uuid "c152074e-84a5-42e3-bff8-494ce42def5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,6 +2184,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RF_RESET" output
+			(at 130.81 81.28 0)
+			(uuid "5cc4aaed-c823-4725-89d9-409a707c1b35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

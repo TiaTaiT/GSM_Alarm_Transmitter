@@ -3214,6 +3214,14 @@
 		(uuid "251de23c-3e30-49ee-a8de-3697cdf58117")
 	)
 	(no_connect
+		(at 113.03 99.06)
+		(uuid "2c3e8a64-c89b-4a60-b86a-4d96541c0b08")
+	)
+	(no_connect
+		(at 113.03 111.76)
+		(uuid "37ec10f6-83c3-4392-ae90-0610a2f661cc")
+	)
+	(no_connect
 		(at 148.59 73.66)
 		(uuid "4fe2f877-9ab4-401d-8153-4d50f0fc580b")
 	)
@@ -3224,10 +3232,6 @@
 	(no_connect
 		(at 113.03 119.38)
 		(uuid "7a718f42-579c-421c-a37e-bd9f92cf9d5f")
-	)
-	(no_connect
-		(at 113.03 111.76)
-		(uuid "8a821011-49ba-4509-8f55-c715ffbae079")
 	)
 	(no_connect
 		(at 146.05 166.37)
@@ -3296,16 +3300,6 @@
 			(type default)
 		)
 		(uuid "09008a55-0ff2-45dc-a889-ca67e04e4505")
-	)
-	(wire
-		(pts
-			(xy 110.49 101.6) (xy 113.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "095e5223-caf5-4aac-a33c-03a937253aa8")
 	)
 	(wire
 		(pts
@@ -3716,6 +3710,16 @@
 			(type default)
 		)
 		(uuid "4003318d-356f-4d85-8798-39dd3ab8e420")
+	)
+	(wire
+		(pts
+			(xy 209.55 115.57) (xy 212.09 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c0d28d-e8ab-4c1a-bf6f-4048fa104f77")
 	)
 	(wire
 		(pts
@@ -4209,16 +4213,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 113.03 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1180945-4d87-4dd2-b707-3470c608be4f")
-	)
-	(wire
-		(pts
 			(xy 91.44 40.64) (xy 91.44 44.45)
 		)
 		(stroke
@@ -4539,16 +4533,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 86.36) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e732628a-798f-400c-9c9b-aa384cfe99bc")
-	)
-	(wire
-		(pts
 			(xy 82.55 83.82) (xy 82.55 85.09)
 		)
 		(stroke
@@ -4576,6 +4560,16 @@
 			(type default)
 		)
 		(uuid "e97296cd-ec53-4c20-bec4-aa10f42a39c0")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a286ae-0ba8-4890-bf9f-c2a686d62422")
 	)
 	(wire
 		(pts
@@ -4689,16 +4683,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 88.9) (xy 212.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae608f8-140a-44bd-98b7-cfc23be88ac4")
-	)
-	(wire
-		(pts
 			(xy 133.35 53.34) (xy 133.35 55.88)
 		)
 		(stroke
@@ -4747,15 +4731,15 @@
 		)
 		(uuid "ff93cd5c-a48e-41f8-a01f-eec01c751733")
 	)
-	(label "UART2_RI"
-		(at 110.49 99.06 180)
+	(label "RF_RESET"
+		(at 209.55 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "004bbc92-ecdd-45df-a7e0-cfb9b8ba4b87")
+		(uuid "041d5a2c-ee1f-4a8e-a587-f8bb8a7d22d3")
 	)
 	(label "UART1_TX"
 		(at 176.53 106.68 0)
@@ -4917,6 +4901,16 @@
 		)
 		(uuid "544247b8-d7a4-42c8-932d-3ad2d68bb3f3")
 	)
+	(label "RF_RESET"
+		(at 110.49 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5681d574-5955-4baf-9203-74e6a6593e3a")
+	)
 	(label "LED3"
 		(at 106.68 127 0)
 		(effects
@@ -5027,16 +5021,6 @@
 		)
 		(uuid "aec559bf-2c0c-473f-b413-20f3f5bea2e4")
 	)
-	(label "UART2_RI"
-		(at 209.55 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c83383bf-3e34-4a7b-80b3-82af54cd955c")
-	)
 	(label "SWDIO"
 		(at 35.56 74.93 0)
 		(effects
@@ -5046,16 +5030,6 @@
 			(justify left bottom)
 		)
 		(uuid "c844399a-4867-4510-8bee-6005be8b543d")
-	)
-	(label "UART2_DTR"
-		(at 110.49 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd1dec74-7e7e-4d91-83af-62ad30cbaf63")
 	)
 	(label "LED5"
 		(at 97.79 135.89 0)
@@ -5106,27 +5080,6 @@
 			(justify right bottom)
 		)
 		(uuid "f528bb4c-735f-4c11-bf5b-d210424b4947")
-	)
-	(label "UART2_DTR"
-		(at 209.55 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6c7cb23-5a2f-4af8-b077-c6ead6285891")
-	)
-	(hierarchical_label "UART2_DTR"
-		(shape input)
-		(at 212.09 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00a16d04-dac4-4204-ac14-ef61ada8154c")
 	)
 	(hierarchical_label "VBUS_SENSING"
 		(shape input)
@@ -5249,6 +5202,17 @@
 		)
 		(uuid "cd8b200d-f659-4095-8bb1-e5142c8787b2")
 	)
+	(hierarchical_label "RF_RESET"
+		(shape output)
+		(at 212.09 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3e0ef9c-dd43-454f-9400-347d4166066f")
+	)
 	(hierarchical_label "UART2_RX"
 		(shape input)
 		(at 212.09 71.12 0)
@@ -5259,17 +5223,6 @@
 			(justify left)
 		)
 		(uuid "d6b181f3-a89e-4660-946c-042e382046c1")
-	)
-	(hierarchical_label "UART2_RI"
-		(shape input)
-		(at 212.09 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5e7ff5c-f12b-46ed-9ffe-f958db2400a6")
 	)
 	(hierarchical_label "ALARM_PULLUP"
 		(shape output)
