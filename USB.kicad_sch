@@ -1190,16 +1190,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 184.15 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0d1460-9ba1-43a7-bd4e-55d1098b08fb")
-	)
-	(wire
-		(pts
 			(xy 83.82 48.26) (xy 106.68 48.26)
 		)
 		(stroke
@@ -1220,6 +1210,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 90.17) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7e6b1c-69a8-4ae6-8c3a-e301b585a467")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5e0eba-c763-45e2-a917-34f36ffb7071")
+	)
+	(wire
+		(pts
 			(xy 128.27 102.87) (xy 128.27 111.76)
 		)
 		(stroke
@@ -1227,16 +1237,6 @@
 			(type default)
 		)
 		(uuid "2025e367-9865-4040-8b08-09bc1f170c6f")
-	)
-	(wire
-		(pts
-			(xy 184.15 48.26) (xy 184.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "260586bf-ed39-4c69-b2ac-4be8f59ac392")
 	)
 	(wire
 		(pts
@@ -1260,13 +1260,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 184.15 92.71)
+			(xy 167.64 100.33) (xy 184.15 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4063e33d-d26f-49ee-bd9b-ab602fa03d19")
+		(uuid "3dfce66b-d555-4d7d-8426-e6d2d4d96453")
 	)
 	(wire
 		(pts
@@ -1310,13 +1310,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 90.17) (xy 184.15 90.17)
+			(xy 184.15 48.26) (xy 184.15 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c505448-897b-4265-b792-142533c01d55")
+		(uuid "907b977a-3e4b-4b0f-8145-9e4de37d2fce")
 	)
 	(wire
 		(pts
@@ -1337,16 +1337,6 @@
 			(type default)
 		)
 		(uuid "9d141b19-8d86-4465-80c6-3373e4fba28f")
-	)
-	(wire
-		(pts
-			(xy 133.35 97.79) (xy 184.15 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d31a28e-3336-4666-9953-59ad2789720e")
 	)
 	(wire
 		(pts
@@ -1390,6 +1380,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b801c70d-781d-470f-8ac6-e8d12dd65fdb")
+	)
+	(wire
+		(pts
 			(xy 93.98 48.26) (xy 93.98 52.07)
 		)
 		(stroke
@@ -1400,13 +1400,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 100.33) (xy 184.15 100.33)
+			(xy 173.99 92.71) (xy 184.15 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce4b473e-b80c-4cc1-be88-c7f9312f8bfd")
+		(uuid "b9ab6d8a-3e82-4ffd-9714-5170732d3b23")
 	)
 	(wire
 		(pts
@@ -2754,7 +2754,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 189.23 92.71 0)
+		(at 189.23 95.25 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2762,10 +2763,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ec6bb594-63ff-4fe6-9407-99c96db35aba")
 		(property "Reference" "J6"
-			(at 191.77 92.7099 0)
+			(at 191.77 95.2501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2776,7 +2776,7 @@
 			)
 		)
 		(property "Value" "USB-C"
-			(at 191.77 95.2499 0)
+			(at 191.77 92.7101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2787,7 +2787,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 189.23 92.71 0)
+			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2798,7 +2798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 92.71 0)
+			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +2809,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 92.71 0)
+			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2820,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 189.23 92.71 0)
+			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2831,7 +2831,7 @@
 			)
 		)
 		(property "MPN" "B6B-PH-K"
-			(at 189.23 92.71 0)
+			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
